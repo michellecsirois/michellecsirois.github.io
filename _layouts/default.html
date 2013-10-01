@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <title> {% if page.title %} {{ page.title }} | {% endif %} Michelle Sirois </title>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+<div id="main">
+
+    <header>
+        <h1><a id="michelle-header" href="/">Michelle Sirois</a></h1>
+
+        <nav role="navigation">
+            <ul>
+                <li>
+                    <i class="twitter-icon"></i>
+                    <a href="http://www.twitter.com/michsirois">twitter</a>
+                </li>
+                <li>
+                    <i class="github-icon"></i>
+                    <a href="http://www.github.com/michellecsirois">github</a>
+                </li>
+                <li>
+                    <i class="linkedin-icon"></i>
+                    <a href="http://www.github.com/michellecsirois">linked in</a>
+                </li>
+                <li><a href="/about">about</a></li>
+                <li><a href="/contact">contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    {{ content }}
+
+    <footer>
+        <p>@copy; Michelle Sirois 2013 | All Rights Reserved. </p>
+    </footer>
+
+</div>
+</body>
+</html>
