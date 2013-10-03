@@ -7,6 +7,13 @@ layout: default
 
 <section class="content" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
          xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+    <script>
+        $(document).ready(function() {
+            $(".list-item").click(function(){
+                $(this).hide();
+            });
+        });
+    </script>
     <div align="center">
         <font face="jenna-sue" size="50">M</font><font face="jenna-sue" size="12">ichelle is a software developer in sunny
         Boulder, Colorado.</font>
@@ -25,9 +32,17 @@ layout: default
     <div id="work-experience">
         <i class="icon-briefcase"></i>
         <div class="list-item"><font face="jenna-sue" size="50">W</font><font face ="jenna-sue" size="12">ork Experience</font>
+            <a href="http://jquery.com/">jQuery</a>
+            <script src="jquery.js"></script>
+                $(".list-item").onClick(
+                    function () { this.show(); }
+            )
+            <script>
+            </script>
             <ul class="js-info-click">
                 <li>did this</li>
                 <li>and this!</li>
+
             </ul>
         </div>
     </div>
