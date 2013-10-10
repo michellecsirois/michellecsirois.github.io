@@ -1,3 +1,7 @@
 _site
 
 .idea
+
+.idea/workspace.xml
+
+assets/.DS_Store
