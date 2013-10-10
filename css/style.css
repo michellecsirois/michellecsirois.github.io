@@ -162,6 +162,7 @@ nav li {
 .list-item {
     padding-left: 50px;
     margin: 0;
+    cursor: pointer;
 }
 
 .list-item.hover {
