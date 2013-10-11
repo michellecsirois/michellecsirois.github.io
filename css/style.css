@@ -87,9 +87,8 @@ nav li {
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 140px;
-    background: #71eeb3;
-    opacity: 0.75;
-    height: 500px;
+    background: #fffaf0;
+    height: auto;
     padding: 140px;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -124,6 +123,32 @@ nav li {
     rotation: 90deg;
 }
 
+.icon-leadership {
+    background-image: url('/assets/images/icon-star.png');
+    /*padding-left: px;*/
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 50px;
+    height: 50px;
+    display: inline;
+    position: absolute;
+    rotation-point:50% 50%;
+    rotation: 90deg;
+}
+
+.icon-lightbulb {
+    background-image: url('/assets/images/icon-lightbulb.png');
+    /*padding-left: px;*/
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 50px;
+    height: 50px;
+    display: inline;
+    position: absolute;
+    rotation-point:50% 50%;
+    rotation: 90deg;
+}
+
 #education {
     position: relative;
 }
@@ -137,6 +162,15 @@ nav li {
 .list-item {
     padding-left: 50px;
     margin: 0;
+    cursor: pointer;
+}
+
+.list-item.hover {
+    text-shadow: 0px 2px 0px rgba(0,0,0,1), 0px -1px 0px rgba(255,255,255,1);
+}
+
+.js-info-click {
+    display: none;
 }
 
 
