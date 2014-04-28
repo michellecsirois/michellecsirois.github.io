@@ -21,6 +21,11 @@ a:hover {
     src: url('/assets/fonts/JennaSue.ttf');
 }
 
+@font-face {
+  font-family: euro;
+  src: url('/assets/fonts/Euro.ttf');
+}
+
 header {
     overflow: hidden;
     position: fixed;
@@ -183,4 +188,8 @@ footer {
     text-align: center;
     bottom: 0;
     color: #71EEB8;
+}
+
+.js-click-header {
+  font-size: medium;
 }
